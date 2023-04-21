@@ -116,7 +116,7 @@ public class StoneGame {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
 
-        //石の数が1～3かどうかを確認
+        //石の数が1～maxかどうかを確認
         if (num >= 1 && num <= max) {
             return sum - num;
         } else {
